@@ -29,6 +29,21 @@ public class Main {
       seatingChart[2][4] = "Caleb7"; // second to last col
       seatingChart[3][0] = "Caleb8";
 
+      // Shortcut: INITIALIZER LISTS
+      // use double curly brackets to set values
+      // for a 2D array right away
+      String[][] bingo = {
+                        {"!", "A", "11"},
+                        {"$", "<3", ":)"},
+                        {",", "20", "x"}
+                         };
+// Look at new array
+System.out.println(bingo); // no built-in tpString
+// have to use a loop or access individual idtems
+System.out.println(bingo[0][0]);
+System.out.println(bingo[1][1]); //heart
+System.out.println(bingo[1][2]); //smiley
+
 
 
 
